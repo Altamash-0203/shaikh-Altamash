@@ -41,17 +41,6 @@ function Contact() {
             <span>{phone}</span>
           </a>
         </div>
-
-        {/* Resume Button */}
-        <a
-          href={resumeLink}
-          download="Shaikh_Altamash_Resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block bg-indigo-600 text-white px-6 py-3 rounded hover:bg-indigo-700 transition"
-        >
-          <p className="text-white">Download Resume</p>
-        </a>
       </div>
     </section>
   );

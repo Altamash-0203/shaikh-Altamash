@@ -24,7 +24,7 @@ function Hero() {
             Hi, I'm <span className="text-indigo-600">Shaikh Altamash</span>
           </h1>
 
-          <p className="mt-4 text-3xl text-white font-thin">
+          <p className=" mt-4 text-white font-medium ">
             Passionate Full Stack Web Developer with a strong focus on building
             interactive and efficient web applications. I work on both front-end
             and back-end development, ensuring fluent user experiences with
