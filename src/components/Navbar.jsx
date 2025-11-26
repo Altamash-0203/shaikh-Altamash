@@ -37,11 +37,20 @@ function Navbar() {
             </a>
           </li>
           <li className="">
-            <a
-              href="/Shaikh_Altamash_Resume.pdf"
-              className="bg-indigo-600 text-black px-4 py-1 rounded hover:bg-indigo-700"
-              target="_blank"
-            >
+           <a
+  href="/Shaikh_Altamash_Resume.pdf"
+  className="bg-indigo-600 text-black px-4 py-1 rounded hover:bg-indigo-700"
+  onClick={(e) => {
+    e.preventDefault();
+    // Open in new tab
+    window.open("/Shaikh_Altamash_Resume.pdf", "_blank");
+    // Force download
+    const link = document.createElement("a");
+    link.href = "/Shaikh_Altamash_Resume.pdf";
+    link.download = "Shaikh_Altamash_Resume.pdf";
+    link.click();
+  }}
+>
               <b className="text-white">Resume</b>
             </a>
           </li>
@@ -90,10 +99,19 @@ function Navbar() {
           </li>
           <li>
             <a
-              href="/resume.pdf"
-              target="_blank"
-              className="bg-indigo-600 text-white px-4 py-2 rounded block text-center"
-            >
+  href="/Shaikh_Altamash_Resume.pdf"
+  className="bg-indigo-600 text-black px-4 py-1 rounded hover:bg-indigo-700"
+  onClick={(e) => {
+    e.preventDefault();
+    // Open in new tab
+    window.open("/Shaikh_Altamash_Resume.pdf", "_blank");
+    // Force download
+    const link = document.createElement("a");
+    link.href = "/Shaikh_Altamash_Resume.pdf";
+    link.download = "Shaikh_Altamash_Resume.pdf";
+    link.click();
+  }}
+>
               <b className="text-white">Resume</b>
             </a>
           </li>
